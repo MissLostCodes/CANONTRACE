@@ -1,0 +1,15 @@
+langchain
+langchain_google_genai
+streamlit
+langchain-google-vertexai
+ftfy
+spacy
+tqdm
+langchain-text-splitters
+langchain-community
+jq
+pathway
+requests
+fastapi
+httpx
+sentence-transformers
