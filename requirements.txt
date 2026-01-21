@@ -13,3 +13,4 @@ requests
 fastapi
 httpx
 sentence-transformers
+rank_bm25
