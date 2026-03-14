@@ -18,7 +18,7 @@ from typing import List, Tuple, Dict, Any, Optional
 from dataclasses import dataclass
 
 # Add external_frameworks to path for direct imports
-EXTERNAL_FRAMEWORKS_PATH = Path(__file__).parent.parent.parent.parent / "advanced_rag_methods"
+EXTERNAL_FRAMEWORKS_PATH = Path(__file__).parent.parent.parent.parent / "third_party_helpers"
 FACTSCORE_PATH = EXTERNAL_FRAMEWORKS_PATH / "FActScore"
 
 if str(FACTSCORE_PATH) not in sys.path:
@@ -39,7 +39,7 @@ class FActScoreAtomicFactGenerator:
     """
     Adapter for the FActScore AtomicFactGenerator.
 
-    Uses the actual FActScore codebase from external_frameworks/FActScore/
+    Uses the actual FActScore codebase from FActScore
     to extract atomic facts from backstory text.
 
     The original AtomicFactGenerator uses InstructGPT with few-shot prompting
